@@ -54,7 +54,12 @@ function History() {
 
         <button onClick={handleSearch} className="btn btn-outline-secondary btn-sm">
           Pesquisar
+        </button> 
+        &emsp;
+        <button onClick={() => {window.location.href="/"}} className="btn btn-outline-danger btn-sm"> 
+          Voltar
         </button>
+
 
         {
           weatherForecast ? (
