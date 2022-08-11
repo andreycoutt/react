@@ -1,2 +1,1 @@
-# react-app
-.
+Previsão do tempo.
